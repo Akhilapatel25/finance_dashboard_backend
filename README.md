@@ -10,6 +10,8 @@
 - Maven
 
 ## Project Structure
+## 📂 Project Structure
+```
 src/main/java/com/akhila/finance
 │
 ├── controller
@@ -42,6 +44,7 @@ src/main/java/com/akhila/finance
 └── exception
     ├── UnauthorizedException.java
     └── GlobalExceptionHandler.java
+```
 
 ## Database Setup
 1. Create MySQL database:
