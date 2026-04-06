@@ -10,32 +10,38 @@
 - Maven
 
 ## Project Structure
-src/main/java/com/akhila/finance/
-├── controller/
+src/main/java/com/akhila/finance
+│
+├── controller
 │   ├── UserController.java
 │   ├── RecordController.java
 │   └── DashboardController.java
-├── service/
+│
+├── service
 │   ├── UserService.java
 │   ├── RecordService.java
 │   └── DashboardService.java
-├── repository/
+│
+├── repository
 │   ├── UserRepository.java
 │   ├── RecordRepository.java
 │   └── RoleRepository.java
-├── model/
+│
+├── model
 │   ├── User.java
 │   ├── Role.java
 │   └── FinancialRecord.java
-├── DTO/
+│
+├── dto
 │   ├── UserDTO.java
 │   ├── AssignRoleDTO.java
 │   ├── FinancialRecordDTO.java
 │   ├── MonthlySummaryDTO.java
 │   └── ApiResponse.java
-└── exception/
-├── UnauthorizedException.java
-└── GlobalExceptionHandler.java
+│
+└── exception
+    ├── UnauthorizedException.java
+    └── GlobalExceptionHandler.java
 
 ## Database Setup
 1. Create MySQL database:
